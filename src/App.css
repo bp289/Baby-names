@@ -1,4 +1,8 @@
 .App {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
@@ -26,6 +30,33 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.boy {
+  margin: 5px ;
+  background-color: #61dafb;
+}
+
+.girl {
+  background-color: pink;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: solid 1px; 
+  border-color: black;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-between;
 }
 
 @keyframes App-logo-spin {
